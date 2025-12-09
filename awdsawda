@@ -4982,7 +4982,7 @@ do
 			log.Display.Type.BackgroundColor3 = v.ClassName == "RemoteFunction" and Color3.new(0.77, 0.44, 1) or Color3.new(0.33, 0.11, 0.66)
 			log.Display.RName.Text = n
 			log.Display.FromServer.Visible = true
-			log.Display.RName.TextColor3 = not block[v.Name] and not block[v] and Color3.new(1,1,1) or Color3.new(1, 0.5, 0.5)
+			log.Display.RName.TextColor3 = not block[v.Name] and not block[v] and Color3.new(0,0,0) or Color3.new(1, 0.5, 0.5)
 			local msg
 			if v.ClassName == "RemoteFunction" then
 				msg = "local args = "..args.."\n\ngetcallbackvalue("..tostr(v)..", \"OnClientInvoke\")(unpack(args)) -- OnClientInvoke"
@@ -5016,7 +5016,7 @@ do
 				log.Visible = true
 				log.Display.Type.BackgroundColor3 = v.ClassName == "UnreliableRemoteEvent" and Color3.new(1, 0.66, 0) or Color3.new(1, 0.88, 0)
 				log.Display.RName.Text = n
-				log.Display.RName.TextColor3 = not block[v.Name] and not block[v] and Color3.new(1,1,1) or Color3.new(1, 0.5, 0.5)
+				log.Display.RName.TextColor3 = not block[v.Name] and not block[v] and Color3.new(0,0,0) or Color3.new(1, 0.5, 0.5)
 
 				local txt = "local args = "..args.."\n\n"
 				if fs ~= 0 then
@@ -5043,7 +5043,7 @@ do
 				log.Display.Type.BackgroundColor3 = Color3.new(1, 0.7, 0.3)
 				log.Display.RName.Text = n
 				log.Display.FromServer.Visible = true
-				log.Display.RName.TextColor3 = not block[v.Name] and not block[v] and Color3.new(1,1,1) or Color3.new(1, 0.5, 0.5)
+				log.Display.RName.TextColor3 = not block[v.Name] and not block[v] and Color3.new(0,0,0) or Color3.new(1, 0.5, 0.5)
 
 				table.insert(insertionQueue, {log, "From", "local args = "..args.."\n\n"..tostr(v)..":Fire(unpack(args)) -- Event", nil, v, args, "Fire"})
 			end
@@ -5501,19 +5501,4 @@ do
 		code = require(script:FindFirstChildOfClass("ModuleScript"))(content.CodeBox)
 		code.Text = "Welcome to the " .. topbar.Title.Text .. "!"
 	end);
-
-	-- Fix para black text sa bagong logs
-cons[#cons+1] = game:GetService("RunService").RenderStepped:Connect(function()
-    for _, log in pairs(logs.From:GetChildren()) do
-        if log:IsA("TextButton") and log.Display.RName then
-            log.Display.RName.TextColor3 = Color3.new(0,0,0)
-        end
-    end
-    for _, log in pairs(logs.To:GetChildren()) do
-        if log:IsA("TextButton") and log.Display.RName then
-            log.Display.RName.TextColor3 = Color3.new(0,0,0)
-        end
-    end
-end)
-
 end;
