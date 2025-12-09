@@ -1590,8 +1590,8 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance56"]["Size"] = UDim2.new(0.9599999785423279, 0, 0.15000000596046448, 0);
 	objects["Instance56"]["BackgroundTransparency"] = 1;
 	objects["Instance56"]["LineHeight"] = 1;
-	objects["Instance56"]["BackgroundColor3"] = Color3.new(1,1,1);
-	objects["Instance56"]["TextColor3"] = Color3.new(0,0,0);
+	objects["Instance56"]["BackgroundColor3"] = Color3.new(1, 1, 1);
+	objects["Instance56"]["TextColor3"] = Color3.new(1, 0.333333, 0.498039);
 	objects["Instance56"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance56"]["Text"] = "Warning";
 	objects["Instance56"]["LayoutOrder"] = 0;
@@ -1713,7 +1713,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance61"]["BackgroundTransparency"] = 1;
 	objects["Instance61"]["LineHeight"] = 1;
 	objects["Instance61"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance61"]["TextColor3"] = Color3.new(0, 0, 0);
+	objects["Instance61"]["TextColor3"] = Color3.new(1, 1, 1);
 	objects["Instance61"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance61"]["Text"] = "Exit";
 	objects["Instance61"]["LayoutOrder"] = 0;
@@ -1799,7 +1799,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance63"]["BackgroundTransparency"] = 1;
 	objects["Instance63"]["LineHeight"] = 1;
 	objects["Instance63"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance63"]["TextColor3"] = Color3.new(0, 0, 0);
+	objects["Instance63"]["TextColor3"] = Color3.new(1, 1, 1);
 	objects["Instance63"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance63"]["Text"] = "PC exploits have become extremely unstable these days; Monsy Remote Spy is a very powerful tool that logs EVERYTHING that happens - meaning that your executor may crash when you click \"Load\". You can click these arrows to switch modes, so script would work a little bit more stable (depends).\n\nI recommend that you do not use your main account for exploiting, as you may get banned. Use this script at your own risk.";
 	objects["Instance63"]["LayoutOrder"] = 0;
@@ -1921,7 +1921,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance68"]["BackgroundTransparency"] = 1;
 	objects["Instance68"]["LineHeight"] = 1;
 	objects["Instance68"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance68"]["TextColor3"] = Color3.new(0, 0, 0);
+	objects["Instance68"]["TextColor3"] = Color3.new(1, 1, 1);
 	objects["Instance68"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance68"]["Text"] = ">";
 	objects["Instance68"]["LayoutOrder"] = 0;
@@ -2088,7 +2088,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance74"]["BackgroundTransparency"] = 1;
 	objects["Instance74"]["LineHeight"] = 1;
 	objects["Instance74"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance74"]["TextColor3"] = Color3.new(0, 0, 0);
+	objects["Instance74"]["TextColor3"] = Color3.new(1, 1, 1);
 	objects["Instance74"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance74"]["Text"] = "<";
 	objects["Instance74"]["LayoutOrder"] = 0;
@@ -2255,7 +2255,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance80"]["BackgroundTransparency"] = 1;
 	objects["Instance80"]["LineHeight"] = 1;
 	objects["Instance80"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance80"]["TextColor3"] = Color3.new(0, 0, 0);
+	objects["Instance80"]["TextColor3"] = Color3.new(1, 1, 1);
 	objects["Instance80"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance80"]["Text"] = "Load";
 	objects["Instance80"]["LayoutOrder"] = 0;
