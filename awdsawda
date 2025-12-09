@@ -2317,48 +2317,57 @@ do -- Set properties
 	objects["Instance81"]["TextTransparency"] = 0;
 end;
 
---// WHITE GUI + BLACK TEXT THEME (drop this at the very bottom)
-local function ApplyWhiteTheme(root)
+--// FORCE WHITE GUI + FORCE BLACK (VISIBLE) TEXT (paste at bottom)
+
+local function ApplyWhiteBlack(root)
 	for _, v in ipairs(root:GetDescendants()) do
-		-- Backgrounds
+		-- 1) White backgrounds for all GUI containers
 		if v:IsA("Frame") or v:IsA("TextButton") or v:IsA("TextBox") or v:IsA("ScrollingFrame") then
 			v.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			-- Optional: make sure not transparent unless you want it
-			if v.BackgroundTransparency == 1 then
-				v.BackgroundTransparency = 0
+			v.BackgroundTransparency = 0
+		end
+
+		-- 2) Black text for all text objects + force visible
+		if v:IsA("TextLabel") or v:IsA("TextButton") or v:IsA("TextBox") then
+			v.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+			-- force visibility
+			v.TextTransparency = 0
+			v.TextStrokeTransparency = 1
+
+			-- sometimes TextBox uses PlaceholderText; make that readable too
+			if v:IsA("TextBox") then
+				v.PlaceholderColor3 = Color3.fromRGB(90, 90, 90)
 			end
 		end
 
-		-- Text (black)
-		if v:IsA("TextLabel") or v:IsA("TextButton") or v:IsA("TextBox") then
-			v.TextColor3 = Color3.fromRGB(0, 0, 0)
-			-- remove stroke if you want clean black text
-			v.TextStrokeTransparency = 1
-		end
-
-		-- Strokes (black)
+		-- 3) Black strokes/borders
 		if v:IsA("UIStroke") then
 			v.Color = Color3.fromRGB(0, 0, 0)
 			v.Transparency = 0
 		end
 
-		-- Scrollbar color (black)
+		-- 4) Scrollbars black
 		if v:IsA("ScrollingFrame") then
 			v.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+			-- optional: make sure scrollbar is visible
+			if v.ScrollBarImageTransparency == 1 then
+				v.ScrollBarImageTransparency = 0
+			end
 		end
 
-		-- Images: optional (keeps icons visible; comment out if ayaw mo pakialaman)
-		if v:IsA("ImageLabel") or v:IsA("ImageButton") then
-			v.ImageColor3 = Color3.fromRGB(0, 0, 0) -- makes icons black-ish
-			-- If some icons disappear, try: v.ImageColor3 = Color3.fromRGB(255,255,255)
-		end
+		-- Optional: DO NOT recolor images (icons). Comment these 2 lines in if gusto mo black icons.
+		-- if v:IsA("ImageLabel") or v:IsA("ImageButton") then
+		-- 	v.ImageColor3 = Color3.fromRGB(0, 0, 0)
+		-- end
 	end
 end
 
-local gui = objects and objects["Instance0"]
+local gui = objects and objects["Instance0"] -- your ScreenGui (OctoSpy)
 if gui then
-	ApplyWhiteTheme(gui)
+	ApplyWhiteBlack(gui)
 end
+
 
 -- Set modules
 local o_require = require; local require;
