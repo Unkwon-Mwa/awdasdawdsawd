@@ -129,14 +129,14 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance3"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
 	objects["Instance3"]["Style"] = Enum.ButtonStyle.Custom;
 	objects["Instance3"]["Position"] = UDim2.new(0.5, 0, 0.5, -113);
-	objects["Instance3"]["BackgroundColor3"] = Color3.new(0, 0, 0);
+	objects["Instance3"]["BackgroundColor3"] = Color3.new(1,1,1);
 	objects["Instance3"]["Selected"] = false;
 	objects["Instance3"]["TextSize"] = 14;
 	objects["Instance3"]["Size"] = UDim2.new(0, 500, 0, 23);
 	objects["Instance3"]["BackgroundTransparency"] = 0;
 	objects["Instance3"]["TextWrapped"] = false;
 	objects["Instance3"]["ClipsDescendants"] = false;
-	objects["Instance3"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance3"]["TextColor3"] = Color3.new(0,0,0);
 	objects["Instance3"]["BorderColor3"] = Color3.new(0,0,0);
 	objects["Instance3"]["Text"] = "";
 	objects["Instance3"]["AutomaticSize"] = Enum.AutomaticSize.None;
@@ -177,7 +177,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance4"]["BackgroundTransparency"] = 1;
 	objects["Instance4"]["LineHeight"] = 1;
 	objects["Instance4"]["BackgroundColor3"] = Color3.new(1,1,1);
-	objects["Instance4"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance4"]["TextColor3"] = Color3.new(0,0,0);
 	objects["Instance4"]["BorderColor3"] = Color3.new(0,0,0);
 	objects["Instance4"]["Text"] = "Monsy Remote Spy";
 	objects["Instance4"]["LayoutOrder"] = 0;
@@ -222,7 +222,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance5"]["BackgroundTransparency"] = 0;
 	objects["Instance5"]["TextWrapped"] = false;
 	objects["Instance5"]["ClipsDescendants"] = false;
-	objects["Instance5"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance5"]["TextColor3"] = Color3.new(0,0,0);
 	objects["Instance5"]["BorderColor3"] = Color3.new(0,0,0);
 	objects["Instance5"]["Text"] = "X";
 	objects["Instance5"]["AutomaticSize"] = Enum.AutomaticSize.None;
@@ -267,7 +267,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance6"]["BackgroundTransparency"] = 0;
 	objects["Instance6"]["TextWrapped"] = false;
 	objects["Instance6"]["ClipsDescendants"] = false;
-	objects["Instance6"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance6"]["TextColor3"] = Color3.new(0,0,0);
 	objects["Instance6"]["BorderColor3"] = Color3.new(0,0,0);
 	objects["Instance6"]["Text"] = "";
 	objects["Instance6"]["AutomaticSize"] = Enum.AutomaticSize.None;
@@ -336,7 +336,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance8"]["Visible"] = true;
 	objects["Instance8"]["Selectable"] = false;
 	objects["Instance8"]["Position"] = UDim2.new(0, 0, 1, 0);
-	objects["Instance8"]["BackgroundColor3"] = Color3.new(0, 0, 0);
+	objects["Instance8"]["BackgroundColor3"] = Color3.new(1,1,1);
 
 	objects["Instance9"]["LayoutOrder"] = 0;
 	objects["Instance9"]["Active"] = false;
@@ -459,7 +459,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance14"]["Visible"] = true;
 	objects["Instance14"]["Selectable"] = false;
 	objects["Instance14"]["Position"] = UDim2.new(0, 0, 0, 3);
-	objects["Instance14"]["BackgroundColor3"] = Color3.new(0, 0, 0);
+	objects["Instance14"]["BackgroundColor3"] = Color3.new(1,1,1);
 
 	objects["Instance15"]["Visible"] = true;
 	objects["Instance15"]["Active"] = true;
@@ -590,7 +590,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance19"]["BackgroundTransparency"] = 1;
 	objects["Instance19"]["TextWrapped"] = false;
 	objects["Instance19"]["ClipsDescendants"] = false;
-	objects["Instance19"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance19"]["TextColor3"] = Color3.new(0,0,0);
 	objects["Instance19"]["BorderColor3"] = Color3.new(0,0,0);
 	objects["Instance19"]["Text"] = "";
 	objects["Instance19"]["AutomaticSize"] = Enum.AutomaticSize.None;
@@ -688,7 +688,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance23"]["BackgroundTransparency"] = 1;
 	objects["Instance23"]["LineHeight"] = 1;
 	objects["Instance23"]["BackgroundColor3"] = Color3.new(1,1,1);
-	objects["Instance23"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance23"]["TextColor3"] = Color3.new(0,0,0);
 	objects["Instance23"]["BorderColor3"] = Color3.new(0,0,0);
 	objects["Instance23"]["Text"] = "RemoteName";
 	objects["Instance23"]["LayoutOrder"] = 0;
@@ -781,7 +781,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance26"]["BackgroundTransparency"] = 0;
 	objects["Instance26"]["TextWrapped"] = false;
 	objects["Instance26"]["ClipsDescendants"] = false;
-	objects["Instance26"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance26"]["TextColor3"] = Color3.new(0,0,0);
 	objects["Instance26"]["BorderColor3"] = Color3.new(0,0,0);
 	objects["Instance26"]["Text"] = "";
 	objects["Instance26"]["AutomaticSize"] = Enum.AutomaticSize.None;
@@ -841,7 +841,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance28"]["AutomaticSize"] = Enum.AutomaticSize.None;
 	objects["Instance28"]["Size"] = UDim2.new(1, 0, 0, 100);
 	objects["Instance28"]["ScrollBarImageColor3"] = Color3.new(0,0,0);
-	objects["Instance28"]["BackgroundColor3"] = Color3.new(0, 0, 0);
+	objects["Instance28"]["BackgroundColor3"] = Color3.new(1,1,1);
 	objects["Instance28"]["Selectable"] = true;
 	objects["Instance28"]["ClipsDescendants"] = true;
 	objects["Instance28"]["ScrollBarImageTransparency"] = 0;
@@ -972,7 +972,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance34"]["BackgroundTransparency"] = 1;
 	objects["Instance34"]["LineHeight"] = 1;
 	objects["Instance34"]["BackgroundColor3"] = Color3.new(1,1,1);
-	objects["Instance34"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance34"]["TextColor3"] = Color3.new(0,0,0);
 	objects["Instance34"]["BorderColor3"] = Color3.new(0,0,0);
 	objects["Instance34"]["Text"] = "Button";
 	objects["Instance34"]["LayoutOrder"] = 0;
@@ -1017,7 +1017,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance35"]["BackgroundTransparency"] = 1;
 	objects["Instance35"]["TextWrapped"] = false;
 	objects["Instance35"]["ClipsDescendants"] = false;
-	objects["Instance35"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance35"]["TextColor3"] = Color3.new(0,0,0);
 	objects["Instance35"]["BorderColor3"] = Color3.new(0,0,0);
 	objects["Instance35"]["Text"] = "";
 	objects["Instance35"]["AutomaticSize"] = Enum.AutomaticSize.None;
@@ -1090,7 +1090,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance37"]["TextStrokeColor3"] = Color3.new(0,0,0);
 	objects["Instance37"]["Selectable"] = true;
 	objects["Instance37"]["ShowNativeInput"] = true;
-	objects["Instance37"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance37"]["TextColor3"] = Color3.new(0,0,0);
 	objects["Instance37"]["BorderColor3"] = Color3.new(0,0,0);
 	objects["Instance37"]["Text"] = "   1  | local args = {}\n   2  |\n   3  | nil.RemoteEvent:FireServer(unpack(args))\n   4  |\n   5  |\n   6  |\n   7  |\n   8  |\n\n9\n9.";
 	objects["Instance37"]["TextSize"] = 14;
@@ -1144,7 +1144,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance39"]["BackgroundTransparency"] = 0;
 	objects["Instance39"]["TextWrapped"] = false;
 	objects["Instance39"]["ClipsDescendants"] = false;
-	objects["Instance39"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance39"]["TextColor3"] = Color3.new(0,0,0);
 	objects["Instance39"]["BorderColor3"] = Color3.new(0,0,0);
 	objects["Instance39"]["Text"] = "";
 	objects["Instance39"]["AutomaticSize"] = Enum.AutomaticSize.None;
@@ -1255,7 +1255,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance42"]["BackgroundTransparency"] = 0;
 	objects["Instance42"]["TextWrapped"] = false;
 	objects["Instance42"]["ClipsDescendants"] = false;
-	objects["Instance42"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance42"]["TextColor3"] = Color3.new(0,0,0);
 	objects["Instance42"]["BorderColor3"] = Color3.new(0,0,0);
 	objects["Instance42"]["Text"] = "";
 	objects["Instance42"]["AutomaticSize"] = Enum.AutomaticSize.None;
@@ -1458,7 +1458,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance50"]["BackgroundTransparency"] = 1;
 	objects["Instance50"]["LineHeight"] = 1;
 	objects["Instance50"]["BackgroundColor3"] = Color3.new(1,1,1);
-	objects["Instance50"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance50"]["TextColor3"] = Color3.new(0,0,0);
 	objects["Instance50"]["BorderColor3"] = Color3.new(0,0,0);
 	objects["Instance50"]["Text"] = "Notification";
 	objects["Instance50"]["LayoutOrder"] = 0;
@@ -1506,7 +1506,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance52"]["BackgroundTransparency"] = 1;
 	objects["Instance52"]["LineHeight"] = 1;
 	objects["Instance52"]["BackgroundColor3"] = Color3.new(1,1,1);
-	objects["Instance52"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance52"]["TextColor3"] = Color3.new(0,0,0);
 	objects["Instance52"]["BorderColor3"] = Color3.new(0,0,0);
 	objects["Instance52"]["Text"] = "Content";
 	objects["Instance52"]["LayoutOrder"] = 0;
@@ -1553,7 +1553,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance54"]["Visible"] = false;
 	objects["Instance54"]["Selectable"] = false;
 	objects["Instance54"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
-	objects["Instance54"]["BackgroundColor3"] = Color3.new(0, 0, 0);
+	objects["Instance54"]["BackgroundColor3"] = Color3.new(1,1,1);
 
 	objects["Instance55"]["Enabled"] = true;
 	objects["Instance55"]["Transparency"] = 0;
@@ -1591,7 +1591,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance56"]["BackgroundTransparency"] = 1;
 	objects["Instance56"]["LineHeight"] = 1;
 	objects["Instance56"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance56"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance56"]["TextColor3"] = Color3.new(1, 0.333333, 0.498039);
 	objects["Instance56"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance56"]["Text"] = "Warning";
 	objects["Instance56"]["LayoutOrder"] = 0;
@@ -1713,7 +1713,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance61"]["BackgroundTransparency"] = 1;
 	objects["Instance61"]["LineHeight"] = 1;
 	objects["Instance61"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance61"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance61"]["TextColor3"] = Color3.new(0, 0, 0);
 	objects["Instance61"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance61"]["Text"] = "Exit";
 	objects["Instance61"]["LayoutOrder"] = 0;
@@ -1758,7 +1758,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance62"]["BackgroundTransparency"] = 1;
 	objects["Instance62"]["TextWrapped"] = false;
 	objects["Instance62"]["ClipsDescendants"] = false;
-	objects["Instance62"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance62"]["TextColor3"] = Color3.new(0, 0, 0);
 	objects["Instance62"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance62"]["Text"] = "";
 	objects["Instance62"]["AutomaticSize"] = Enum.AutomaticSize.None;
@@ -1799,7 +1799,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance63"]["BackgroundTransparency"] = 1;
 	objects["Instance63"]["LineHeight"] = 1;
 	objects["Instance63"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance63"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance63"]["TextColor3"] = Color3.new(0, 0, 0);
 	objects["Instance63"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance63"]["Text"] = "PC exploits have become extremely unstable these days; Monsy Remote Spy is a very powerful tool that logs EVERYTHING that happens - meaning that your executor may crash when you click \"Load\". You can click these arrows to switch modes, so script would work a little bit more stable (depends).\n\nI recommend that you do not use your main account for exploiting, as you may get banned. Use this script at your own risk.";
 	objects["Instance63"]["LayoutOrder"] = 0;
@@ -1921,7 +1921,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance68"]["BackgroundTransparency"] = 1;
 	objects["Instance68"]["LineHeight"] = 1;
 	objects["Instance68"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance68"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance68"]["TextColor3"] = Color3.new(0, 0, 0);
 	objects["Instance68"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance68"]["Text"] = ">";
 	objects["Instance68"]["LayoutOrder"] = 0;
@@ -1966,7 +1966,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance69"]["BackgroundTransparency"] = 1;
 	objects["Instance69"]["TextWrapped"] = false;
 	objects["Instance69"]["ClipsDescendants"] = false;
-	objects["Instance69"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance69"]["TextColor3"] = Color3.new(0, 0, 0);
 	objects["Instance69"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance69"]["Text"] = "";
 	objects["Instance69"]["AutomaticSize"] = Enum.AutomaticSize.None;
@@ -2088,7 +2088,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance74"]["BackgroundTransparency"] = 1;
 	objects["Instance74"]["LineHeight"] = 1;
 	objects["Instance74"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance74"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance74"]["TextColor3"] = Color3.new(0, 0, 0);
 	objects["Instance74"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance74"]["Text"] = "<";
 	objects["Instance74"]["LayoutOrder"] = 0;
@@ -2133,7 +2133,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance75"]["BackgroundTransparency"] = 1;
 	objects["Instance75"]["TextWrapped"] = false;
 	objects["Instance75"]["ClipsDescendants"] = false;
-	objects["Instance75"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance75"]["TextColor3"] = Color3.new(0, 0, 0);
 	objects["Instance75"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance75"]["Text"] = "";
 	objects["Instance75"]["AutomaticSize"] = Enum.AutomaticSize.None;
@@ -2255,7 +2255,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance80"]["BackgroundTransparency"] = 1;
 	objects["Instance80"]["LineHeight"] = 1;
 	objects["Instance80"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance80"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance80"]["TextColor3"] = Color3.new(0, 0, 0);
 	objects["Instance80"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance80"]["Text"] = "Load";
 	objects["Instance80"]["LayoutOrder"] = 0;
@@ -2300,7 +2300,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance81"]["BackgroundTransparency"] = 1;
 	objects["Instance81"]["TextWrapped"] = false;
 	objects["Instance81"]["ClipsDescendants"] = false;
-	objects["Instance81"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance81"]["TextColor3"] = Color3.new(0, 0, 0);
 	objects["Instance81"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance81"]["Text"] = "";
 	objects["Instance81"]["AutomaticSize"] = Enum.AutomaticSize.None;
@@ -5014,7 +5014,7 @@ do
 
 				local log = log:Clone()
 				log.Visible = true
-				log.Display.Type.BackgroundColor3 = v.ClassName == "UnreliableRemoteEvent" and Color3.new(1, 0.66, 0) or Color3.new(1, 0.88, 0)
+				log.Display.Type.BackgroundColor3 = v.ClassName == "UnreliableRemoteEvent" and Color3.new(0, 0, 0) or Color3.new(0, 0, 0)
 				log.Display.RName.Text = n
 				log.Display.RName.TextColor3 = not block[v.Name] and not block[v] and Color3.new(0,0,0) or Color3.new(1, 0.5, 0.5)
 
@@ -5158,7 +5158,7 @@ do
 
 				local log = log:Clone()
 				log.Visible = true
-				log.Display.Type.BackgroundColor3 = Color3.new(1, 0.66, 0)
+				log.Display.Type.BackgroundColor3 = Color3.new(0, 0, 0)
 				log.Display.RName.Text = n
 				log.Display.RName.TextColor3 = not block[self.Name] and not block[self] and Color3.new(1,1,1) or Color3.new(1, 0.5, 0.5)
 
