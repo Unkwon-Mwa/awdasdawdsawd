@@ -1921,7 +1921,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance68"]["BackgroundTransparency"] = 1;
 	objects["Instance68"]["LineHeight"] = 1;
 	objects["Instance68"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance68"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance68"]["TextColor3"] = Color3.new(0, 0, 0);
 	objects["Instance68"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance68"]["Text"] = ">";
 	objects["Instance68"]["LayoutOrder"] = 0;
@@ -2088,7 +2088,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance74"]["BackgroundTransparency"] = 1;
 	objects["Instance74"]["LineHeight"] = 1;
 	objects["Instance74"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance74"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance74"]["TextColor3"] = Color3.new(0, 0, 0);
 	objects["Instance74"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance74"]["Text"] = "<";
 	objects["Instance74"]["LayoutOrder"] = 0;
@@ -2255,7 +2255,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance80"]["BackgroundTransparency"] = 1;
 	objects["Instance80"]["LineHeight"] = 1;
 	objects["Instance80"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance80"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance80"]["TextColor3"] = Color3.new(0, 0, 0);
 	objects["Instance80"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance80"]["Text"] = "Load";
 	objects["Instance80"]["LayoutOrder"] = 0;
@@ -5501,4 +5501,19 @@ do
 		code = require(script:FindFirstChildOfClass("ModuleScript"))(content.CodeBox)
 		code.Text = "Welcome to the " .. topbar.Title.Text .. "!"
 	end);
+
+	-- Fix para black text sa bagong logs
+cons[#cons+1] = game:GetService("RunService").RenderStepped:Connect(function()
+    for _, log in pairs(logs.From:GetChildren()) do
+        if log:IsA("TextButton") and log.Display.RName then
+            log.Display.RName.TextColor3 = Color3.new(0,0,0)
+        end
+    end
+    for _, log in pairs(logs.To:GetChildren()) do
+        if log:IsA("TextButton") and log.Display.RName then
+            log.Display.RName.TextColor3 = Color3.new(0,0,0)
+        end
+    end
+end)
+
 end;
