@@ -97,7 +97,7 @@ do -- Set properties
 	objects["Instance0"]["ClipToDeviceSafeArea"] = true;
 	objects["Instance0"]["Parent"] = parent;
 	objects["Instance0"]["IgnoreGuiInset"] = true;
-	objects["Instance0"]["Name"] = "OctoSpy";
+	objects["Instance0"]["Name"] = "Monsy Remote Spy";
 	objects["Instance0"]["DisplayOrder"] = 999999999;
 
 	objects["Instance1"]["Parent"] = objects["Instance0"];
@@ -181,7 +181,7 @@ do -- Set properties
 	objects["Instance4"]["BackgroundColor3"] = Color3.new(1, 1, 1);
 	objects["Instance4"]["TextColor3"] = Color3.new(1, 0.333333, 0.498039);
 	objects["Instance4"]["BorderColor3"] = Color3.new(0, 0, 0);
-	objects["Instance4"]["Text"] = "MONSY REMOTE SPY	";
+	objects["Instance4"]["Text"] = "Monsy Remote Spy";
 	objects["Instance4"]["LayoutOrder"] = 0;
 	objects["Instance4"]["TextWrapped"] = true;
 	objects["Instance4"]["Rotation"] = 0;
@@ -2316,58 +2316,6 @@ do -- Set properties
 	objects["Instance81"]["TextStrokeColor3"] = Color3.new(0, 0, 0);
 	objects["Instance81"]["TextTransparency"] = 0;
 end;
-
---// FORCE WHITE GUI + FORCE BLACK (VISIBLE) TEXT (paste at bottom)
-
-local function ApplyWhiteBlack(root)
-	for _, v in ipairs(root:GetDescendants()) do
-		-- 1) White backgrounds for all GUI containers
-		if v:IsA("Frame") or v:IsA("TextButton") or v:IsA("TextBox") or v:IsA("ScrollingFrame") then
-			v.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			v.BackgroundTransparency = 0
-		end
-
-		-- 2) Black text for all text objects + force visible
-		if v:IsA("TextLabel") or v:IsA("TextButton") or v:IsA("TextBox") then
-			v.TextColor3 = Color3.fromRGB(0, 0, 0)
-
-			-- force visibility
-			v.TextTransparency = 0
-			v.TextStrokeTransparency = 1
-
-			-- sometimes TextBox uses PlaceholderText; make that readable too
-			if v:IsA("TextBox") then
-				v.PlaceholderColor3 = Color3.fromRGB(90, 90, 90)
-			end
-		end
-
-		-- 3) Black strokes/borders
-		if v:IsA("UIStroke") then
-			v.Color = Color3.fromRGB(0, 0, 0)
-			v.Transparency = 0
-		end
-
-		-- 4) Scrollbars black
-		if v:IsA("ScrollingFrame") then
-			v.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
-			-- optional: make sure scrollbar is visible
-			if v.ScrollBarImageTransparency == 1 then
-				v.ScrollBarImageTransparency = 0
-			end
-		end
-
-		-- Optional: DO NOT recolor images (icons). Comment these 2 lines in if gusto mo black icons.
-		-- if v:IsA("ImageLabel") or v:IsA("ImageButton") then
-		-- 	v.ImageColor3 = Color3.fromRGB(0, 0, 0)
-		-- end
-	end
-end
-
-local gui = objects and objects["Instance0"] -- your ScreenGui (OctoSpy)
-if gui then
-	ApplyWhiteBlack(gui)
-end
-
 
 -- Set modules
 local o_require = require; local require;
@@ -4743,7 +4691,7 @@ do
 						legacy = true
 					end,
 					function()
-						notification("A Monsy Remote Spy with ultra weak hooks", "Mode")
+						notification("A spy with ultra weak hooks", "Mode")
 					end,
 				},
 				{
@@ -4772,7 +4720,7 @@ do
 						loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/SimpleSpyV3/main.lua"))()
 					end,
 					function()
-						notification("Will unload Monsy Remote Spy and load SimpleSpy", "Mode")
+						notification("Will unload Monsy Remote Spy and load Monsy Remote Spy", "Mode")
 					end
 				}
 			}
@@ -5000,12 +4948,12 @@ do
 
 		if getfenv().hookmetamethod and getfenv().getnamecallmethod and hf then
 			if getfenv().getnilinstances and getfenv().getinstances and getfenv().firesignal and getfenv().getcallbackvalue then
-				task.spawn(notification, "That executor fully supports Monsy Remote Spy (and simple spy)", "Supported")
+				task.spawn(notification, "That executor fully supports Monsy Remote Spy (and Monsy Remote Spy)", "Supported")
 			else
-				task.spawn(notification, "That executor not fully supports Monsy Remote Spy (but possibly supports simple spy)", "Supported")
+				task.spawn(notification, "That executor not fully supports Monsy Remote Spy (but possibly supports Monsy Remote Spy)", "Supported")
 			end
 		else
-			task.spawn(notification, "That does not fully support Octo~Spy (simple spy probably wont work)", "Unsupported")
+			task.spawn(notification, "That does not fully support Monsy Remote Spy (simple spy probably wont work)", "Unsupported")
 		end
 
 		cons[#cons+1] = topbar.Toggle.MouseButton1Click:Connect(updState1)
