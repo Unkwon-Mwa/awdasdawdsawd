@@ -1651,7 +1651,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance58"]["Visible"] = true;
 	objects["Instance58"]["Selectable"] = false;
 	objects["Instance58"]["Position"] = UDim2.new(0.4749999940395355, 0, 0.5, 0);
-	objects["Instance58"]["BackgroundColor3"] = Color3.new(0.156863, 0.156863, 0.254902);
+	objects["Instance58"]["BackgroundColor3"] = Color3.new(1, 1, 1);
 
 	objects["Instance59"]["Enabled"] = true;
 	objects["Instance59"]["Transparency"] = 0;
@@ -1799,7 +1799,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance63"]["BackgroundTransparency"] = 1;
 	objects["Instance63"]["LineHeight"] = 1;
 	objects["Instance63"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance63"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance63"]["TextColor3"] = Color3.new(0, 0, 0);
 	objects["Instance63"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance63"]["Text"] = "PC exploits have become extremely unstable these days; Monsy Remote Spy is a very powerful tool that logs EVERYTHING that happens - meaning that your executor may crash when you click \"Load\". You can click these arrows to switch modes, so script would work a little bit more stable (depends).\n\nI recommend that you do not use your main account for exploiting, as you may get banned. Use this script at your own risk.";
 	objects["Instance63"]["LayoutOrder"] = 0;
@@ -1859,7 +1859,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance65"]["Visible"] = true;
 	objects["Instance65"]["Selectable"] = false;
 	objects["Instance65"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
-	objects["Instance65"]["BackgroundColor3"] = Color3.new(0.156863, 0.156863, 0.254902);
+	objects["Instance65"]["BackgroundColor3"] = Color3.new(1, 1, 1);
 
 	objects["Instance66"]["Enabled"] = true;
 	objects["Instance66"]["Transparency"] = 0;
@@ -2026,7 +2026,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance71"]["Visible"] = true;
 	objects["Instance71"]["Selectable"] = false;
 	objects["Instance71"]["Position"] = UDim2.new(0.6000000238418579, 0, 0.5, 0);
-	objects["Instance71"]["BackgroundColor3"] = Color3.new(0.156863, 0.156863, 0.254902);
+	objects["Instance71"]["BackgroundColor3"] = Color3.new(1, 1, 1);
 
 	objects["Instance72"]["Enabled"] = true;
 	objects["Instance72"]["Transparency"] = 0;
@@ -2193,7 +2193,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance77"]["Visible"] = true;
 	objects["Instance77"]["Selectable"] = false;
 	objects["Instance77"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
-	objects["Instance77"]["BackgroundColor3"] = Color3.new(0.156863, 0.156863, 0.254902);
+	objects["Instance77"]["BackgroundColor3"] = Color3.new(1, 1, 1);
 
 	objects["Instance78"]["Enabled"] = true;
 	objects["Instance78"]["Transparency"] = 0;
