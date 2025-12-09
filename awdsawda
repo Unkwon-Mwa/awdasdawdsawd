@@ -1591,7 +1591,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance56"]["BackgroundTransparency"] = 1;
 	objects["Instance56"]["LineHeight"] = 1;
 	objects["Instance56"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance56"]["TextColor3"] = Color3.new(0, 0, 0);
+	objects["Instance56"]["TextColor3"] = Color3.new(1, 0.333333, 0.498039);
 	objects["Instance56"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance56"]["Text"] = "Warning";
 	objects["Instance56"]["LayoutOrder"] = 0;
@@ -5014,7 +5014,7 @@ do
 
 				local log = log:Clone()
 				log.Visible = true
-				log.Display.Type.BackgroundColor3 = v.ClassName == "UnreliableRemoteEvent" and Color3.new(1, 0.66, 0) or Color3.new(1, 0.88, 0)
+				log.Display.Type.BackgroundColor3 = v.ClassName == "UnreliableRemoteEvent" and Color3.new(0, 0, 0) or Color3.new(0, 0, 0)
 				log.Display.RName.Text = n
 				log.Display.RName.TextColor3 = not block[v.Name] and not block[v] and Color3.new(0,0,0) or Color3.new(1, 0.5, 0.5)
 
@@ -5158,7 +5158,7 @@ do
 
 				local log = log:Clone()
 				log.Visible = true
-				log.Display.Type.BackgroundColor3 = Color3.new(1, 0.66, 0)
+				log.Display.Type.BackgroundColor3 = Color3.new(0, 0, 0)
 				log.Display.RName.Text = n
 				log.Display.RName.TextColor3 = not block[self.Name] and not block[self] and Color3.new(1,1,1) or Color3.new(1, 0.5, 0.5)
 
