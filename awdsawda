@@ -150,46 +150,47 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance3"]["TextStrokeColor3"] = Color3.new(0,0,0);
 	objects["Instance3"]["TextTransparency"] = 0;
 
-	objects["Instance4"]["Visible"] = true;
-	objects["Instance4"]["FontSize"] = Enum.FontSize.Size14;
-	objects["Instance4"]["TextDirection"] = Enum.TextDirection.Auto;
-	objects["Instance4"]["Active"] = false;
-	objects["Instance4"]["TextStrokeTransparency"] = 1;
-	objects["Instance4"]["TextTruncate"] = Enum.TextTruncate.None;
-	objects["Instance4"]["SizeConstraint"] = Enum.SizeConstraint.RelativeXY;
-	objects["Instance4"]["ZIndex"] = -8;
-	objects["Instance4"]["BorderSizePixel"] = 0;
-	objects["Instance4"]["Draggable"] = false;
-	objects["Instance4"]["RichText"] = false;
-	objects["Instance4"]["Transparency"] = 1;
-	objects["Instance4"]["SelectionOrder"] = 0;
-	objects["Instance4"]["TextYAlignment"] = Enum.TextYAlignment.Center;
-	objects["Instance4"]["TextScaled"] = true;
-	objects["Instance4"]["TextWrap"] = true;
-	objects["Instance4"]["FontFace"] = Font.new("rbxasset://fonts/families/PatrickHand.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal, false);
-	objects["Instance4"]["BorderMode"] = Enum.BorderMode.Outline;
-	objects["Instance4"]["Parent"] = objects["Instance3"];
-	objects["Instance4"]["AnchorPoint"] = Vector2.new(0, 0.5);
-	objects["Instance4"]["TextSize"] = 14;
-	objects["Instance4"]["Position"] = UDim2.new(0.019999999552965164, 0, 0.5, 0);
-	objects["Instance4"]["AutomaticSize"] = Enum.AutomaticSize.None;
-	objects["Instance4"]["Size"] = UDim2.new(0.30000001192092896, 0, 0.699999988079071, 0);
-	objects["Instance4"]["BackgroundTransparency"] = 1;
-	objects["Instance4"]["LineHeight"] = 1;
-	objects["Instance4"]["BackgroundColor3"] = Color3.new(0, 0, 0);
-	objects["Instance4"]["TextColor3"] = Color3.new(1, 1, 1);
-	objects["Instance4"]["BorderColor3"] = Color3.new(0,0,0);
-	objects["Instance4"]["Text"] = "Monsy Remote Spy";
-	objects["Instance4"]["LayoutOrder"] = 0;
-	objects["Instance4"]["TextWrapped"] = true;
-	objects["Instance4"]["Rotation"] = 0;
-	objects["Instance4"]["TextTransparency"] = 0;
-	objects["Instance4"]["Name"] = "Title";
-	objects["Instance4"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-	objects["Instance4"]["ClipsDescendants"] = false;
-	objects["Instance4"]["MaxVisibleGraphemes"] = -1;
-	objects["Instance4"]["TextStrokeColor3"] = Color3.new(0,0,0);
-	objects["Instance4"]["Selectable"] = false;
+	objects["Instance4"]["Visible"] = true
+	objects["Instance4"]["FontSize"] = Enum.FontSize.Size14
+	objects["Instance4"]["TextDirection"] = Enum.TextDirection.Auto
+	objects["Instance4"]["Active"] = false
+	objects["Instance4"]["TextStrokeTransparency"] = 1
+	objects["Instance4"]["TextTruncate"] = Enum.TextTruncate.None
+	objects["Instance4"]["SizeConstraint"] = Enum.SizeConstraint.RelativeXY
+	objects["Instance4"]["ZIndex"] = -8
+	objects["Instance4"]["BorderSizePixel"] = 0
+	objects["Instance4"]["Draggable"] = false
+	objects["Instance4"]["RichText"] = false
+	objects["Instance4"]["Transparency"] = 1
+	objects["Instance4"]["SelectionOrder"] = 0
+	objects["Instance4"]["TextYAlignment"] = Enum.TextYAlignment.Center
+	objects["Instance4"]["TextScaled"] = true
+	objects["Instance4"]["TextWrap"] = true
+	objects["Instance4"]["FontFace"] = Font.new("rbxasset://fonts/families/PatrickHand.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+	objects["Instance4"]["BorderMode"] = Enum.BorderMode.Outline
+	objects["Instance4"]["Parent"] = objects["Instance3"]
+	objects["Instance4"]["AnchorPoint"] = Vector2.new(0.5, 0.5)  -- This centers the object horizontally and vertically
+	objects["Instance4"]["TextSize"] = 14
+	objects["Instance4"]["Position"] = UDim2.new(0.5, 0, 0.5, 0)  -- This positions the object in the center of its parent
+	objects["Instance4"]["AutomaticSize"] = Enum.AutomaticSize.None
+	objects["Instance4"]["Size"] = UDim2.new(0.3, 0, 0.7, 0)
+	objects["Instance4"]["BackgroundTransparency"] = 1
+	objects["Instance4"]["LineHeight"] = 1
+	objects["Instance4"]["BackgroundColor3"] = Color3.new(0, 0, 0)
+	objects["Instance4"]["TextColor3"] = Color3.new(1, 1, 1)
+	objects["Instance4"]["BorderColor3"] = Color3.new(0, 0, 0)
+	objects["Instance4"]["Text"] = "Monsy Remote Spy"
+	objects["Instance4"]["LayoutOrder"] = 0
+	objects["Instance4"]["TextWrapped"] = true
+	objects["Instance4"]["Rotation"] = 0
+	objects["Instance4"]["TextTransparency"] = 0
+	objects["Instance4"]["Name"] = "Title"
+	objects["Instance4"]["TextXAlignment"] = Enum.TextXAlignment.Center  -- This will center the text within the object
+	objects["Instance4"]["ClipsDescendants"] = false
+	objects["Instance4"]["MaxVisibleGraphemes"] = -1
+	objects["Instance4"]["TextStrokeColor3"] = Color3.new(0, 0, 0)
+	objects["Instance4"]["Selectable"] = false
+
 
 	objects["Instance5"]["Visible"] = true;
 	objects["Instance5"]["FontSize"] = Enum.FontSize.Size14;
@@ -5014,7 +5015,7 @@ do
 
 				local log = log:Clone()
 				log.Visible = true
-				log.Display.Type.BackgroundColor3 = v.ClassName == "UnreliableRemoteEvent" and Color3.new(1, 0.66, 0) or Color3.new(1, 0.88, 0)
+				log.Display.Type.BackgroundColor3 = v.ClassName == "UnreliableRemoteEvent" and Color3.new(1, 1, 1) or Color3.new(1, 1, 1)
 				log.Display.RName.Text = n
 				log.Display.RName.TextColor3 = not block[v.Name] and not block[v] and Color3.new(0,0,0) or Color3.new(1, 0.5, 0.5)
 
@@ -5040,7 +5041,7 @@ do
 
 				local log = log:Clone()
 				log.Visible = true
-				log.Display.Type.BackgroundColor3 = Color3.new(1, 0.7, 0.3)
+				log.Display.Type.BackgroundColor3 = Color3.new(1, 1, 1)
 				log.Display.RName.Text = n
 				log.Display.FromServer.Visible = true
 				log.Display.RName.TextColor3 = not block[v.Name] and not block[v] and Color3.new(0,0,0) or Color3.new(1, 0.5, 0.5)
@@ -5158,7 +5159,7 @@ do
 
 				local log = log:Clone()
 				log.Visible = true
-				log.Display.Type.BackgroundColor3 = Color3.new(1, 0.66, 0)
+				log.Display.Type.BackgroundColor3 = Color3.new(1, 1, 1)
 				log.Display.RName.Text = n
 				log.Display.RName.TextColor3 = not block[self.Name] and not block[self] and Color3.new(1,1,1) or Color3.new(1, 0.5, 0.5)
 
@@ -5188,7 +5189,7 @@ do
 
 				local log = log:Clone()
 				log.Visible = true
-				log.Display.Type.BackgroundColor3 = Color3.new(1, 0.44, 0.22)
+				log.Display.Type.BackgroundColor3 = Color3.new(1, 1, 1)
 				log.Display.RName.Text = n
 				log.Display.RName.TextColor3 = not block[self.Name] and not block[self] and Color3.new(1,1,1) or Color3.new(1, 0.5, 0.5)
 
