@@ -1803,7 +1803,7 @@ do -- Set properties
 	objects["Instance63"]["BackgroundColor3"] = Color3.new(1, 1, 1);
 	objects["Instance63"]["TextColor3"] = Color3.new(1, 1, 1);
 	objects["Instance63"]["BorderColor3"] = Color3.new(0, 0, 0);
-	objects["Instance63"]["Text"] = "PC exploits have become extremely unstable these days; Remote Spy is a very powerful tool that logs EVERYTHING that happens - meaning that your executor may crash when you click \"Load\". You can click these arrows to switch modes, so script would work a little bit more stable (depends).\n\nI recommend that you do not use your main account for exploiting, as you may get banned. Use this script at your own risk.";
+	objects["Instance63"]["Text"] = "PC exploits have become extremely unstable these days; Monsy Remote Spy is a very powerful tool that logs EVERYTHING that happens - meaning that your executor may crash when you click \"Load\". You can click these arrows to switch modes, so script would work a little bit more stable (depends).\n\nI recommend that you do not use your main account for exploiting, as you may get banned. Use this script at your own risk.";
 	objects["Instance63"]["LayoutOrder"] = 0;
 	objects["Instance63"]["TextWrapped"] = true;
 	objects["Instance63"]["Rotation"] = 0;
@@ -3182,7 +3182,7 @@ local modules do
 				["self"] = true,
 				["export"] = true,
 				["continue"] = true,
-				["OctoSpy"] = true,
+				["Monsy Remote Spy"] = true,
 				["Spy"] = true,
 				["Octo"] = true
 			}
@@ -4743,7 +4743,7 @@ do
 						legacy = true
 					end,
 					function()
-						notification("A spy with ultra weak hooks", "Mode")
+						notification("A Monsy Remote Spy with ultra weak hooks", "Mode")
 					end,
 				},
 				{
@@ -4772,7 +4772,7 @@ do
 						loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/SimpleSpyV3/main.lua"))()
 					end,
 					function()
-						notification("Will unload OctoSpy and load SimpleSpy", "Mode")
+						notification("Will unload Monsy Remote Spy and load SimpleSpy", "Mode")
 					end
 				}
 			}
@@ -5000,9 +5000,9 @@ do
 
 		if getfenv().hookmetamethod and getfenv().getnamecallmethod and hf then
 			if getfenv().getnilinstances and getfenv().getinstances and getfenv().firesignal and getfenv().getcallbackvalue then
-				task.spawn(notification, "That executor fully supports Octo~Spy (and simple spy)", "Supported")
+				task.spawn(notification, "That executor fully supports Monsy Remote Spy (and simple spy)", "Supported")
 			else
-				task.spawn(notification, "That executor not fully supports Octo~Spy (but possibly supports simple spy)", "Supported")
+				task.spawn(notification, "That executor not fully supports Monsy Remote Spy (but possibly supports simple spy)", "Supported")
 			end
 		else
 			task.spawn(notification, "That does not fully support Octo~Spy (simple spy probably wont work)", "Unsupported")
