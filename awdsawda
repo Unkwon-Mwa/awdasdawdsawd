@@ -1713,7 +1713,7 @@ do -- Set properties – EVERYTHING WHITE + BLACK TEXT/STROKE
 	objects["Instance61"]["BackgroundTransparency"] = 1;
 	objects["Instance61"]["LineHeight"] = 1;
 	objects["Instance61"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance61"]["TextColor3"] = Color3.new(1, 1, 1);
+	objects["Instance61"]["TextColor3"] = Color3.new(0, 0, 0);
 	objects["Instance61"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance61"]["Text"] = "Exit";
 	objects["Instance61"]["LayoutOrder"] = 0;
