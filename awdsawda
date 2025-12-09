@@ -224,7 +224,7 @@ do -- Set properties
 	objects["Instance5"]["BackgroundTransparency"] = 0;
 	objects["Instance5"]["TextWrapped"] = false;
 	objects["Instance5"]["ClipsDescendants"] = false;
-	objects["Instance5"]["TextColor3"] = Color3.new(0,0,0);
+	objects["Instance5"]["TextColor3"] = Color3.new(1, 1, 1);
 	objects["Instance5"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance5"]["Text"] = "X";
 	objects["Instance5"]["AutomaticSize"] = Enum.AutomaticSize.None;
@@ -269,7 +269,7 @@ do -- Set properties
 	objects["Instance6"]["BackgroundTransparency"] = 0;
 	objects["Instance6"]["TextWrapped"] = false;
 	objects["Instance6"]["ClipsDescendants"] = false;
-	objects["Instance6"]["TextColor3"] = Color3.new(0,0,0);
+	objects["Instance6"]["TextColor3"] = Color3.new(1, 1, 1);
 	objects["Instance6"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance6"]["Text"] = "";
 	objects["Instance6"]["AutomaticSize"] = Enum.AutomaticSize.None;
@@ -389,7 +389,7 @@ do -- Set properties
 	objects["Instance11"]["Visible"] = true;
 	objects["Instance11"]["Selectable"] = false;
 	objects["Instance11"]["Position"] = UDim2.new(0, -2, 0, 0);
-	objects["Instance11"]["BackgroundColor3"] = Color3.new(1,1,1);
+	objects["Instance11"]["BackgroundColor3"] = Color3.new(0, 0, 0);
 
 	objects["Instance12"]["LayoutOrder"] = 0;
 	objects["Instance12"]["Active"] = false;
@@ -413,7 +413,7 @@ do -- Set properties
 	objects["Instance12"]["Visible"] = true;
 	objects["Instance12"]["Selectable"] = false;
 	objects["Instance12"]["Position"] = UDim2.new(1, 0, 0, 0);
-	objects["Instance12"]["BackgroundColor3"] = Color3.new(1,1,1);
+	objects["Instance12"]["BackgroundColor3"] = Color3.new(0, 0, 0);
 
 	objects["Instance13"]["LayoutOrder"] = 0;
 	objects["Instance13"]["Active"] = false;
@@ -437,7 +437,7 @@ do -- Set properties
 	objects["Instance13"]["Visible"] = true;
 	objects["Instance13"]["Selectable"] = false;
 	objects["Instance13"]["Position"] = UDim2.new(0, 0, 1, 0);
-	objects["Instance13"]["BackgroundColor3"] = Color3.new(1,1,1);
+	objects["Instance13"]["BackgroundColor3"] = Color3.new(0, 0, 0);
 
 	objects["Instance14"]["LayoutOrder"] = 0;
 	objects["Instance14"]["Active"] = false;
@@ -690,7 +690,7 @@ do -- Set properties
 	objects["Instance23"]["BackgroundTransparency"] = 1;
 	objects["Instance23"]["LineHeight"] = 1;
 	objects["Instance23"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance23"]["TextColor3"] = Color3.new(0,0,0);
+	objects["Instance23"]["TextColor3"] = Color3.new(1, 1, 1);
 	objects["Instance23"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance23"]["Text"] = "RemoteName";
 	objects["Instance23"]["LayoutOrder"] = 0;
@@ -974,7 +974,7 @@ do -- Set properties
 	objects["Instance34"]["BackgroundTransparency"] = 1;
 	objects["Instance34"]["LineHeight"] = 1;
 	objects["Instance34"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance34"]["TextColor3"] = Color3.new(0,0,0);
+	objects["Instance34"]["TextColor3"] = Color3.new(1, 1, 1);
 	objects["Instance34"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance34"]["Text"] = "Button";
 	objects["Instance34"]["LayoutOrder"] = 0;
@@ -1092,7 +1092,7 @@ do -- Set properties
 	objects["Instance37"]["TextStrokeColor3"] = Color3.new(0, 0, 0);
 	objects["Instance37"]["Selectable"] = true;
 	objects["Instance37"]["ShowNativeInput"] = true;
-	objects["Instance37"]["TextColor3"] = Color3.new(0,0,0);
+	objects["Instance37"]["TextColor3"] = Color3.new(1, 1, 1);
 	objects["Instance37"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance37"]["Text"] = "   1  | local args = {}\n   2  |\n   3  | nil.RemoteEvent:FireServer(unpack(args))\n   4  |\n   5  |\n   6  |\n   7  |\n   8  |\n\n9\n9.";
 	objects["Instance37"]["TextSize"] = 14;
@@ -1146,7 +1146,7 @@ do -- Set properties
 	objects["Instance39"]["BackgroundTransparency"] = 0;
 	objects["Instance39"]["TextWrapped"] = false;
 	objects["Instance39"]["ClipsDescendants"] = false;
-	objects["Instance39"]["TextColor3"] = Color3.new(0,0,0);
+	objects["Instance39"]["TextColor3"] = Color3.new(1, 1, 1);
 	objects["Instance39"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance39"]["Text"] = "";
 	objects["Instance39"]["AutomaticSize"] = Enum.AutomaticSize.None;
@@ -1257,7 +1257,7 @@ do -- Set properties
 	objects["Instance42"]["BackgroundTransparency"] = 0;
 	objects["Instance42"]["TextWrapped"] = false;
 	objects["Instance42"]["ClipsDescendants"] = false;
-	objects["Instance42"]["TextColor3"] = Color3.new(0,0,0);
+	objects["Instance42"]["TextColor3"] = Color3.new(1, 1, 1);
 	objects["Instance42"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance42"]["Text"] = "";
 	objects["Instance42"]["AutomaticSize"] = Enum.AutomaticSize.None;
@@ -1715,7 +1715,7 @@ do -- Set properties
 	objects["Instance61"]["BackgroundTransparency"] = 1;
 	objects["Instance61"]["LineHeight"] = 1;
 	objects["Instance61"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance61"]["TextColor3"] = Color3.new(0,0,0);
+	objects["Instance61"]["TextColor3"] = Color3.new(1, 1, 1);
 	objects["Instance61"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance61"]["Text"] = "Exit";
 	objects["Instance61"]["LayoutOrder"] = 0;
@@ -1801,7 +1801,7 @@ do -- Set properties
 	objects["Instance63"]["BackgroundTransparency"] = 1;
 	objects["Instance63"]["LineHeight"] = 1;
 	objects["Instance63"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance63"]["TextColor3"] = Color3.new(0,0,0);
+	objects["Instance63"]["TextColor3"] = Color3.new(1, 1, 1);
 	objects["Instance63"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance63"]["Text"] = "PC exploits have become extremely unstable these days; Monsy Remote Spy is a very powerful tool that logs EVERYTHING that happens - meaning that your executor may crash when you click \"Load\". You can click these arrows to switch modes, so script would work a little bit more stable (depends).\n\nI recommend that you do not use your main account for exploiting, as you may get banned. Use this script at your own risk.";
 	objects["Instance63"]["LayoutOrder"] = 0;
@@ -1923,7 +1923,7 @@ do -- Set properties
 	objects["Instance68"]["BackgroundTransparency"] = 1;
 	objects["Instance68"]["LineHeight"] = 1;
 	objects["Instance68"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance68"]["TextColor3"] = Color3.new(0,0,0);
+	objects["Instance68"]["TextColor3"] = Color3.new(1, 1, 1);
 	objects["Instance68"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance68"]["Text"] = ">";
 	objects["Instance68"]["LayoutOrder"] = 0;
@@ -2090,7 +2090,7 @@ do -- Set properties
 	objects["Instance74"]["BackgroundTransparency"] = 1;
 	objects["Instance74"]["LineHeight"] = 1;
 	objects["Instance74"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance74"]["TextColor3"] = Color3.new(0,0,0);
+	objects["Instance74"]["TextColor3"] = Color3.new(1, 1, 1);
 	objects["Instance74"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance74"]["Text"] = "<";
 	objects["Instance74"]["LayoutOrder"] = 0;
@@ -2257,7 +2257,7 @@ do -- Set properties
 	objects["Instance80"]["BackgroundTransparency"] = 1;
 	objects["Instance80"]["LineHeight"] = 1;
 	objects["Instance80"]["BackgroundColor3"] = Color3.new(1, 1, 1);
-	objects["Instance80"]["TextColor3"] = Color3.new(0,0,0);
+	objects["Instance80"]["TextColor3"] = Color3.new(1, 1, 1);
 	objects["Instance80"]["BorderColor3"] = Color3.new(0, 0, 0);
 	objects["Instance80"]["Text"] = "Load";
 	objects["Instance80"]["LayoutOrder"] = 0;
@@ -2505,10 +2505,10 @@ local modules do
 				TextBox = Color3.fromRGB(38,38,38),
 				Menu = Color3.fromRGB(32,32,32),
 				ListSelection = Color3.fromRGB(199,154,40),
-				Button = Color3.fromRGB(255,255,255),
+				Button = Color3.fromRGB(60,60,60),
 				ButtonHover = Color3.fromRGB(68,68,68),
-				ButtonPress = Color3.fromRGB(255,255,255),
-				Highlight = Color3.fromRGB(255,255,255),
+				ButtonPress = Color3.fromRGB(40,40,40),
+				Highlight = Color3.fromRGB(75,75,75),
 				Text = Color3.fromRGB(255,255,255),
 				PlaceholderText = Color3.fromRGB(100,100,100),
 				Important = Color3.fromRGB(255,0,0),
@@ -2516,7 +2516,7 @@ local modules do
 				MiscIconMap = "",
 				Syntax = {
 					Text = Color3.fromRGB(204,204,204),
-					Background = Color3.fromRGB(255,255,255),
+					Background = Color3.fromRGB(18,18,25),
 					Selection = Color3.fromRGB(255,255,255),
 					SelectionBack = Color3.fromRGB(66, 0, 50),
 					Operator = Color3.fromRGB(204,204,204),
@@ -2567,7 +2567,7 @@ local modules do
 			if dir == "up" then
 				for i = 1,num do
 					local newLine = createSimple("TextButton",{
-						BackgroundColor3 = Color3.new(0,0,0),
+						BackgroundColor3 = Color3.new(220/255,220/255,220/255),
 						BorderSizePixel = 0,
 						Position = UDim2.new(0,math.floor(size/2)-(i-1),0,math.floor(size/2)+i-math.floor(max/2)-1),
 						Size = UDim2.new(0,i+(i-1),0,1),
@@ -2580,7 +2580,7 @@ local modules do
 			elseif dir == "down" then
 				for i = 1,num do
 					local newLine = createSimple("TextButton",{
-						BackgroundColor3 = Color3.new(0,0,0),
+						BackgroundColor3 = Color3.new(220/255,220/255,220/255),
 						BorderSizePixel = 0,
 						Position = UDim2.new(0,math.floor(size/2)-(i-1),0,math.floor(size/2)-i+math.floor(max/2)+1),
 						Size = UDim2.new(0,i+(i-1),0,1),
@@ -2593,7 +2593,7 @@ local modules do
 			elseif dir == "left" then
 				for i = 1,num do
 					local newLine = createSimple("TextButton",{
-						BackgroundColor3 = Color3.new(0,0,0),
+						BackgroundColor3 = Color3.new(220/255,220/255,220/255),
 						BorderSizePixel = 0,
 						Position = UDim2.new(0,math.floor(size/2)+i-math.floor(max/2)-1,0,math.floor(size/2)-(i-1)),
 						Size = UDim2.new(0,1,0,i+(i-1)),
@@ -2606,7 +2606,7 @@ local modules do
 			elseif dir == "right" then
 				for i = 1,num do
 					local newLine = createSimple("TextButton",{
-						BackgroundColor3 = Color3.new(0,0,0),
+						BackgroundColor3 = Color3.new(220/255,220/255,220/255),
 						BorderSizePixel = 0,
 						Position = UDim2.new(0,math.floor(size/2)-i+math.floor(max/2)+1,0,math.floor(size/2)-(i-1)),
 						Size = UDim2.new(0,1,0,i+(i-1)),
@@ -3060,11 +3060,11 @@ local modules do
 				},mt)
 				obj.Gui = createFrame(obj)
 				obj:Texture({
-					ThumbColor = Color3.fromRGB(0,0,0),
-					ThumbSelectColor = Color3.fromRGB(255,255,255),
-					ArrowColor = Color3.new(0,0,0),
-					FrameColor = Color3.fromRGB(255,255,255),
-					ButtonColor = Color3.fromRGB(255,255,255)
+					ThumbColor = Color3.fromRGB(60,60,60),
+					ThumbSelectColor = Color3.fromRGB(75,75,75),
+					ArrowColor = Color3.new(1,1,1),
+					FrameColor = Color3.fromRGB(40,40,40),
+					ButtonColor = Color3.fromRGB(75,75,75)
 				})
 				return obj
 			end
